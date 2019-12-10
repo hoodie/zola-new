@@ -1,0 +1,21 @@
+[package]
+name = "zola-new"
+version = "0.1.0"
+authors = ["Hendrik Sollich <hendrik@hoodie.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+toml = "0.5"
+color-backtrace = "0.3.0"
+slug = "0.1.4"
+
+[dependencies.chrono]
+version= "0.4"
+features = ["serde"]
+
+[dependencies.serde]
+version = "1.0"
+features = ["derive"]
